@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.taobao.activity.Login2Activity">
+
+
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@mipmap/uik_nav_home_selected"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+      <EditText
+          android:id="@+id/et_name"
+          android:layout_width="250dp"
+          android:layout_height="35dp"
+          android:background="@drawable/fang"
+          android:hint="请输入用户名"
+          android:layout_marginLeft="70dp"
+          android:layout_marginTop="30dp"
+          />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@drawable/fang"
+        android:hint="请输入密码"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="登录"
+        android:textSize="17sp"
+        android:textColor="#ffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/login"
+        />
+    
+    
+    
+    
+</LinearLayout>
